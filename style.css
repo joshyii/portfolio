@@ -125,3 +125,62 @@ body {
 h4 {
     font-size: 20px;
 }
+
+.contact{
+    background-image: url('assets/loading screen.png');
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 0;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding: 0 70px;
+}
+.contact h5{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact h6, .contact a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.whatsapp-contact {
+    border: 3px solid #1DB954;
+    border-right: 0px;
+    color: #1DB954;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-contact {
+    border: 3px solid white;
+    border-right: 0px;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
